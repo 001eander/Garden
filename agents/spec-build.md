@@ -6,7 +6,7 @@ model: openai/gpt-5.3-codex
 temperature: 0.15
 permission:
   edit: allow
-  webfetch: ask
+  webfetch: allow
   bash:
     "*": ask
     "git status*": allow

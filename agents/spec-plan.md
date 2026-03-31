@@ -2,7 +2,7 @@
 description: 创建并细化规范的需求、设计和任务计划。
 mode: subagent
 hidden: true
-model: github-copilot/gemini-3-flash-preview
+model: github-copilot/gemini-3-pro-preview
 temperature: 0.1
 permission:
   edit: 

@@ -1,23 +1,24 @@
 {
     "$schema": "https://opencode.ai/config.json",
-    "default_agent": "iris",
     "mcp": {
         "context7": {
             "type": "remote",
             "url": "https://mcp.context7.com/mcp",
-            "enabled": true,
             "headers": {
                 "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
-            }
+            },
+            "enabled": true
         },
-        "playwright": {
+        "chrome-devtools": {
             "type": "local",
             "command": [
                 "pnpm",
                 "dlx",
-                "@playwright/mcp@latest"
+                "chrome-devtools-mcp@latest",
+                "--autoConnect",
+                "--channel=beta"
             ],
-            "enabled": false
+            "enabled": true
         }
     }
 }
