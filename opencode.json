@@ -18,7 +18,7 @@
                 "--autoConnect",
                 "--channel=beta"
             ],
-            "enabled": true
+            "enabled": false
         }
     }
 }
