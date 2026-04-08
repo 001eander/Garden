@@ -5,7 +5,7 @@ temperature: 0.1
 permission:
   edit:
     "*": ask
-    ".opencode/specs/*": allow
+    ".opencode/specs/**": allow
   bash:
     "*": ask
     "git status*": allow

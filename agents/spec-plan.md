@@ -8,7 +8,7 @@ permission:
   read: allow
   edit: 
     "*": ask
-    ".opencode/specs/*": allow
+    ".opencode/specs/**": allow
   bash: ask
   webfetch: ask
 ---
