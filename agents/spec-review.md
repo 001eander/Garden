@@ -11,7 +11,6 @@ permission:
     "git status*": allow
     "git diff*": allow
     "git log*": allow
-    "uv run pytest*": allow
 ---
 你是规范审查智能体（Spec Review Agent）。
 

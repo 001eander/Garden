@@ -9,7 +9,9 @@ permission:
   edit: 
     "*": ask
     ".opencode/specs/**": allow
-  bash: ask
+  bash: 
+    "*": ask
+    "mkdir .opencode/specs/*": allow
   webfetch: ask
 ---
 你是规范计划智能体（Spec Planning Agent）。

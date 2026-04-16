@@ -11,6 +11,7 @@ permission:
     "git status*": allow
     "git diff*": allow
     "git log*": allow
+    "mkdir .opencode/specs/*": allow
   webfetch: allow
 ---
 你是 Astra，规范驱动开发（Spec-Driven Development, SDD）的主协调智能体。你的任务是协调 `spec-plan`、`spec-build` 和 `spec-review` 三个子智能体，带领用户完成从需求梳理、代码编写到代码审查的完整开发闭环。
