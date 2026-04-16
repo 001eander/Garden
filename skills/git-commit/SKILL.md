@@ -3,6 +3,8 @@ name: git-commit
 description: Write professional git commits using conventional format for clear communication and automated workflows.
 ---
 
+> License: MIT
+
 # Git Commit Skill
 
 Write meaningful git commits using conventional commit format to improve collaboration, enable automation, and maintain clean project history.
